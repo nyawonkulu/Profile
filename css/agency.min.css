@@ -392,7 +392,7 @@ section#contact .contact-panel{
 footer{
 	padding:25px 0;
 	text-align:center;
-	height:150px
+	height:130px
 }
 footer span.copyright{
 	font-size:90%;
@@ -420,6 +420,7 @@ ul.social-buttons li a{
 ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li a:hover{
 	background-color:#8e8e38
 }
+/*scroller*/
 #return-to-top {
 	position: fixed;
 	bottom: 20px;
