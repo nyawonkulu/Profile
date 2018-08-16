@@ -524,3 +524,77 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+/*collapse*/
+.wrap-collabsible, .wrap-collabsible-2 {
+  margin-bottom: 1.2rem 0;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+.lbl-toggle, .lbl-toggle-2 {
+  display: block;
+
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+
+  padding: 1rem;
+
+  color: #fff;
+  background: #8e8e38;
+
+  cursor: pointer;
+
+  border-radius: 7px;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle:hover, .lbl-toggle-2:hover {
+  color:#afaf73;
+}
+
+.lbl-toggle::before, .lbl-toggle-2::before {
+  content: ' ';
+  display: inline-block;
+
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+
+  transition: transform .2s ease-out;
+}
+
+.toggle:checked + .lbl-toggle::before, .toggle-2:checked + .lbl-toggle-2::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content, .collapsible-content-2{
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .50s ease-in-out;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content, .toggle-2:checked + .lbl-toggle-2 + .collapsible-content-2 {
+  max-height: 100%;
+}
+
+.toggle:checked + .lbl-toggle, .toggle-2:checked + .lbl-toggle-2  {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner, .collapsible-content-2 .content-inner{
+  color: #fff;
+  background: rgb(153,153,75);
+  border-bottom: 1px solid rgba(127,127,50);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: .5rem 1rem;
+}
