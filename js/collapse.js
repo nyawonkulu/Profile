@@ -11,9 +11,9 @@ Array.from(myLabels).forEach(label => {
   });
 });
 
-let myLabels = document.querySelectorAll('.lbl-toggle-2');
+let myLabels2 = document.querySelectorAll('.lbl-toggle-2');
 
-Array.from(myLabels).forEach(label => {
+Array.from(myLabels2).forEach(label => {
   label.addEventListener('keydown', e => {
     // 32 === spacebar
     // 13 === enter
