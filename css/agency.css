@@ -6,13 +6,13 @@ p{
 	line-height:1.75;
 }
 a{
-	color:#8e8e38
+	color:#e65100
 }
 a:hover{
-	color:#8e8e38
+	color:#e65100
 }
 .text-primary{
-	color:#8e8e38!important;
+	color:#e65100!important;
 }
 h1,h2,h3,h4,h5,h6{
 	font-weight:700;
@@ -44,22 +44,25 @@ section h3.section-subheading{
 	padding:20px 40px
 }
 .btn-primary{
-	background-color:#8e8e38;
-	border-color:#8e8e38
+	background-color:transparent;	
+	border-color:#e65100;
+	border-radius: 20px;
+	border-width: 2px
+
 }
 .btn-primary:active,.btn-primary:focus,.btn-primary:hover{
-	background-color:#8e8e38!important;
-	border-color:#8e8e38!important;
+	background-color:#e65100!important;
+	border-color:#e65100!important;
 	color:#fff
 }
 .btn-primary:active,.btn-primary:focus{
-	box-shadow:0 0 0 .2rem rgba(254,209,55,.5)!important
+	box-shadow:0 0 0 .2rem #ef6c00!important
 }
 ::-moz-selection{
-	background:#8e8e38text-shadow:none
+	background:#e65100 text-shadow:none
 }
 ::selection{
-	background:#8e8e38text-shadow:none
+	background:#e65100 text-shadow:none
 }
 img::selection{
 	background:0 0
@@ -77,15 +80,15 @@ img::-moz-selection{
 	text-transform:uppercase;
 	color:#fff;
 	border:0;
-	background-color:#8e8e38;
+	background-color:#e65100;
 	font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif
 }
 #mainNav .navbar-brand{
-	color:#8e8e38;
+	color:#e65100;
 	font-family:'Berlin Sans FB'
 }
 #mainNav .navbar-brand.active,#mainNav .navbar-brand:active,#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{
-	color:#8e8e38
+	color:#e65100
 }
 #mainNav .navbar-nav .nav-item .nav-link{
 	font-size:100%;
@@ -102,7 +105,7 @@ img::-moz-selection{
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,#mainNav .navbar-nav .nav-item .nav-link:hover{
 	color:#fff;
-	border-bottom: 5px solid #8e8e38;
+	border-bottom: 5px solid #e65100;
 }
 header.masthead{
 	text-align:center;
@@ -269,7 +272,7 @@ header.masthead .intro-text .intro-heading{
 	color:#fff;
 	border:7px solid #e9ecef;
 	border-radius:100%;
-	background-color:#8e8e38
+	background-color:#e65100
 }
 .timeline>li .timeline-image h4{
 	font-size:10px;
@@ -356,7 +359,7 @@ section#contact .form-group textarea.form-control{
 	height:150px
 }
 section#contact .form-control:focus{
-	border-color:#8e8e38;
+	border-color:#e65100;
 	box-shadow:none
 }
 section#contact .contactForm{
@@ -415,7 +418,7 @@ ul.social-buttons li a{
 	background-color:#212529
 }
 ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li a:hover{
-	background-color:#8e8e38
+	background-color:#e65100
 }
 /*scroller*/
 #return-to-top {
@@ -511,8 +514,8 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
 }
 .page-loader .loader {
     border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #8e8e38; /* Blue */
-	border-bottom: 16px solid #8e8e38;
+    border-top: 16px solid #e65100; /* Blue */
+	border-bottom: 16px solid #e65100;
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -545,7 +548,7 @@ input[type='checkbox'] {
   padding: 1rem;
 
   color: #fff;
-  background: #8e8e38;
+  background: #e65100;
 
   cursor: pointer;
 
@@ -554,7 +557,7 @@ input[type='checkbox'] {
 }
 
 .lbl-toggle:hover, .lbl-toggle-2:hover {
-  color:#afaf73;
+  color:#212529;
 }
 
 .lbl-toggle::before, .lbl-toggle-2::before {
@@ -592,8 +595,8 @@ input[type='checkbox'] {
 
 .collapsible-content .content-inner, .collapsible-content-2 .content-inner{
   color: #fff;
-  background: rgb(153,153,75);
-  border-bottom: 1px solid rgba(127,127,50);
+  background: #e65100;
+  border-bottom: 1px solid #ef6c00;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
   padding: .5rem 1rem;
