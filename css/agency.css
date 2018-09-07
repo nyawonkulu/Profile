@@ -384,11 +384,25 @@ header.masthead .intro-text .intro-heading {
 .timeline .timeline-body>ul {
 	margin-bottom: 0
 }
+.competencies .skill-2{
+	margin-top: 50px;
+	padding-top: 50px
+}
 
 .competencies {
 	padding-top: 30px
 }
-
+.competencies-below{
+	width:100%;
+	padding-top: 30px	
+}
+.competencies-skills{	
+	width:100%;
+	padding-top: 30px		
+}
+.t-container .timeline{
+	margin-top: 100px;	
+}
 .team-member {
 	margin-top: 20px;
 	text-align: center
@@ -748,14 +762,16 @@ a.collapsefont:hover {
 
 .experience-bg .inner {
 	margin-top: 20px;
-	color: #fff
+	color:#fff
 }
 
 .experience .item-intro {
 	color: #fff
 }
 
-.experience-bg .inner-exp {
-	padding: 20px
+.experience-bg .inner-exp {	
+	padding: 20px	
 }
+
+
 

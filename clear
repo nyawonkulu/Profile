@@ -1,0 +1,668 @@
+857e5d1f (nyawonkulu 2018-08-09 05:31:56 +0200   1) 
+857e5d1f (nyawonkulu 2018-08-09 05:31:56 +0200   2) 
+eb2cbb33 (nyawonkulu 2018-08-08 14:00:00 +0200   3) <!DOCTYPE html>
+eb2cbb33 (nyawonkulu 2018-08-08 14:00:00 +0200   4) <html lang="en">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200   5)    <head>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200   6)       <meta charset="utf-8">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200   7)       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200   8)       <meta name="description" content="">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200   9)       <meta name="author" content="">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  10)       <title>Qiniso Makhaye</title>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  11)       <link rel="icon" href="http://www.qinisomakhaye.com/IMG_604.ico">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  12)       <!-- Bootstrap core CSS -->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  13)       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  14)       <!-- Custom fonts for this template -->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  15)       <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  16)       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  17)       <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  18)       <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  19)       <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  20)       <!--@media mobile devices-->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  21)       <meta name="viewport" content="width=device-width, initial-scale=1">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  22)       <!-- Custom styles for this template -->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  23)       <link href="css/agency.min.css" rel="stylesheet">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  24)       <!--Theme Responsive css-->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  25)       <link rel="stylesheet" href="css/responsive.min.css" />
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  26)       <!--WOW-->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  27)       <link rel="stylesheet" href="css/libs/animate.min.css">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  28)       <!--<link rel="stylesheet" href="css/site.css">-->   
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  29)       <style>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  30)          .wow:first-child {
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  31)          visibility: hidden;
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  32)          }
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  33)       </style>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  34)       <!--scroll up-->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  35)       <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  36)    </head>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  37)    <body id="page-top">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  38)       <div class="page-loader">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  39)          <div class="loader"></div>
+eb2cbb33 (nyawonkulu 2018-08-08 14:00:00 +0200  40)       </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  41)       <!-- #Navigation -->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  42)       <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  43)          <div class="container">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  44)             <a class="navbar-brand js-scroll-trigger" href="#page-top">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  45)             <img class="max-auto rounded-circle img-fluid" src="img/IMG_604.jpg" alt="">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  46)             </a>               
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  47)             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  48)             Menu
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  49)             <i class="fa fa-bars"></i>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  50)             </button>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  51)             <div class="collapse navbar-collapse" id="navbarResponsive">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  52)                <ul class="navbar-nav text-uppercase ml-auto">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  53)                   <li class="nav-item">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  54)                      <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  55)                   </li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  56)                   <li class="nav-item">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  57)                      <a class="nav-link js-scroll-trigger" href="#skills">Skills & Interests</a>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  58)                   </li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  59)                   <li class="nav-item">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  60)                      <a class="nav-link js-scroll-trigger" href="#portfolio">Experience</a>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  61)                   </li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  62)                   <li class="nav-item">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  63)                      <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  64)                   </li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  65)                   <li class="nav-item">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  66)                      <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  67)                   </li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  68)                </ul>
+857e5d1f (nyawonkulu 2018-08-09 05:31:56 +0200  69)             </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  70)          </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  71)       </nav>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  72)       <!-- #Header -->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  73)       <header class="masthead">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  74)          <div class="container">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  75)             <div class="col-sm-12">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  76)                <div class="intro-text">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  77)                   <div class="row">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  78)                      <div class="col-md-6">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  79)                         <div class="intro-lead-in wow fadeInLeft"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  80)                            <p>I am Qiniso Makhaye, a male graduate from the University of KwaZulu-Natal with a genuine interest in software development with desired competencies in entrepreneurship, experimental 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  81)                               skills and intrinsic motivation to create. I’m attributed with knowledge to disseminate complex problems whilst integrating the application knowledge to the domain 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  82)                               and infusing various thinking patterns acquired through experiences in other domains or previous enrolled projects, with emphasis on elegant and simple solutions, 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  83)                               and such, pursuit of excellence. Exquisite grasping qualities and attention to detail that enables me to work specifically with clarity, and precisely 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  84)                               to completeness of a task as I am result oriented. I tend to utilize my thoughts rather than emotions, therefore obtaining a solution to problem by arranging ideas
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  85)                               and objects in consecutive order before making a recommendation. Can be analytic, objective, just and task orientated, and concern with fairness, looking down upon
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  86)                               emotional decision making. A balance of empirical and innovation, but rely more on my senses or on what I perceive on my intuition; therefore preferring that which 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  87)                               realistic, tangible, immediate and concrete. I tend to assess most events in terms of their past or present value. I'm also sensible and down to earth, and I enjoy 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  88)                               the present moment. Structured as I have the need for completion, prioritizing, anticipating and planning. Can be quick, regarding decision making as well, and 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  89)                               prefer to complete one task before starting with next. I very much enjoy making lists and respect deadlines as I am time conscious.
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  90)                            </p>
+857e5d1f (nyawonkulu 2018-08-09 05:31:56 +0200  91)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  92)                      </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  93)                      <div class="col-md-6">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  94)                         <div class="intro-lead-in wow fadeInRight"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  95)                            <p> Work orientation best described as an efficient investigator, looking for discrepancies that stand in my way of goal achievements. I’m practical, responsible, trustworthy and careful and comfortable issuing orders, directives and structure. Very loyal and I admire belonging to a group, and 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  96)                               can be vulnerable to criticism. Hard working individual who likes predictability – changes may interrupt my steady and direct focus. Ideal circumstances for me 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  97)                               would be a structured, stable and orderly environment where everybody knows what has to be done, who is to do it, and by what completion deadline. Rarely see the world in terms of grey, either black 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  98)                               or white. I value traditions because I value rituals, ceremonies and celebrations in providing sense of belonging. Opportunities for growth I may overlook the 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200  99)                               long-range implications in favor of day-to-day operations. Focused on facts, data and details; which may cause people to perceive me as cold and my objectivity
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 100)                               may be seen as criticism and dislike. Favorable learning style is through concrete and specific methods, in which I exercise accurate observation. Foretasting a 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 101)                               flourishing career that will expose me to experienced professionals while empowering me with considerable knowledge and aptitude to triumph. I'm outfitted with 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 102)                               comprehensive knowledge and proficiency in: analysis, design, modelling and implementing of information systems; and project management skills to name a few; and I 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 103)                               have an impressive work ethic, focus, peoples skills, adaptive thinking abilities, practical skills, pro-activity and self-motivation.
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 104)                            </p>
+857e5d1f (nyawonkulu 2018-08-09 05:31:56 +0200 105)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 106)                      </div>
+eb2cbb33 (nyawonkulu 2018-08-08 14:00:00 +0200 107)                   </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 108)                </div>
+857e5d1f (nyawonkulu 2018-08-09 05:31:56 +0200 109)             </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 110)          </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 111)       </header>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 112)       <!-- #Education -->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 113)       <section id="education">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 114)          <div class="container">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 115)          <div class="row wow fadeInDown"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 116)             <div class="col-lg-12 text-center">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 117)                <h2 class="section-heading text-uppercase">Education</h2>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 118)                <h3 class="section-subheading text-muted">Formal Qualifications & Certificates</h3>
+857e5d1f (nyawonkulu 2018-08-09 05:31:56 +0200 119)             </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 120)          </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 121)          <div class="row">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 122)             <div class="col-lg-12">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 123)                <ul class="timeline">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 124)                   <li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 125)                      <div class="timeline-image">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 126)                         <img class="rounded-circle img-fluid" src="img/education/carter.jpg" alt="">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 127)                      </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 128)                      <div class="timeline-panel">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 129)                         <div class="timeline-heading wow fadeInLeft"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 130)                            <h4 class="date">2007-2011</h4>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 131)                            <h4 class="subheading">CARTER HIGH SCHOOL</h4>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 132)                            <h6 class="subheading">National Senior Certificate</h6>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 133)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 134)                         <div class="timeline-body wow fadeInLeft"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 135)                            <div class="wrap-collabsible">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 136)                               <input id="collapsible" class="toggle" type="checkbox">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 137)                               <label for="collapsible" class="lbl-toggle" tabindex="0">Subjects</label>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 138)                               <div class="collapsible-content">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 139)                                  <div class="content-inner">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 140)                                     <div class="inner">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 141)                                        <ul class="fa-ul">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 142)                                           <li><i class="fa-li fa fa-spinner fa-spin"></i>English Home Language</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 143)                                           <li><i class="fa-li fa fa-spinner fa-spin"></i>IsiZulu First Additional Language</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 144)                                           <li><i class="fa-li fa fa-spinner fa-spin"></i>Mathematics</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 145)                                           <li><i class="fa-li fa fa-spinner fa-spin"></i>Life Orientation</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 146)                                           <li><i class="fa-li fa fa-spinner fa-spin"></i>Accounting</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 147)                                           <li><i class="fa-li fa fa-spinner fa-spin"></i>Geography</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 148)                                           <li><i class="fa-li fa fa-spinner fa-spin"></i>Life Science</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 149)                                        </ul>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 150)                                     </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 151)                                  </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 152)                               </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 153)                            </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 154)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 155)                      </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 156)                   </li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 157)                   <li class="timeline-inverted">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 158)                      <div class="timeline-image">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 159)                         <img class="rounded-circle img-fluid" src="img/education/ukzn.jpg" alt="">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 160)                      </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 161)                      <div class="timeline-panel">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 162)                         <div class="timeline-heading wow fadeInLeft"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 163)                            <h4>2013-2018</h4>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 164)                            <h4 class="subheading">UNIVERSITY OF KWAZULU-NATAL (UKZN)</h4>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 165)                            <h5 class="subheading">Bachelor of Science</h5>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 166)                            <p class="subheading text-muted">Computer Science & Information Technology</p>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 167)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 168)                         <div class="timeline-body wow fadeInLeft"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 169)                            <div class="wrap-collabsible-2">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 170)                               <input id="collapsible-2" class="toggle-2" type="checkbox">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 171)                               <label for="collapsible-2" class="lbl-toggle-2" tabindex="0">Minors & Related Coursework</label>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 172)                               <div class="collapsible-content-2">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 173)                                  <div class="content-inner">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 174)                                     <h5>Minors</h5>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 175)                                     <ul class="fa-ul">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 176)                                        <li><i class="fa-li fa fa-spinner fa-spin"></i>Mathematics</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 177)                                        <li><i class="fa-li fa fa-spinner fa-spin"></i>Statistics</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 178)                                     </ul>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 179)                                     <h5>Related Coursework</h5>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 180)                                     <div class="inner">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 181)                                        <div class="panel-group" id="accordion">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 182)                                           <div class="panel panel-default">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 183)                                              <div class="panel-heading">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 184)                                                 <h6 class="panel-title text-center">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 185)                                                 <hr>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 186)                                                 <a class="collapsefont" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 187)                                                 Computer Science</a>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 188)                                                 <hr>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 189)                                                 </h4>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 190)                                              </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 191)                                              <div id="collapse1" class="panel-collapse collapse in">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 192)                                                 <div class="panel-body">Object Oriented Programming, Artificial Intelligence, Computability Theory and Algorithm Complexity, Computer Systems, Advanced Programming Concepts and Data 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 193)                                                    Structures, use of third party libraries and modular programs.
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 194)                                                 </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 195)                                              </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 196)                                           </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 197)                                           <div class="panel panel-default">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 198)                                              <div class="panel-heading">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 199)                                                 <h6 class="panel-title text-center">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 200)                                                 <hr>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 201)                                                 <a class="collapsefont" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 202)                                                 Information Technology</a>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 203)                                                 <hr>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 204)                                                 </h4>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 205)                                              </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 206)                                              <div id="collapse2" class="panel-collapse collapse">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 207)                                                 <div class="panel-body">Systems analyst and approaches to system development, Investigating and modelling system requirements, object-oriented approach to requirements, Modelling, designing and implementing databases, both in theory and in practice; designing, developing, testing and implementing programs; knowledge and skills to analyze and design information systems using the OO methodology, Logical system design, Internet Technologies, Software Development, Web based processing, Business Intelligence Reporting, Database Driven Websites, C# and Database Connectivity.</div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 208)                                              </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 209)                                           </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 210)                                           <div class="panel panel-default">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 211)                                              <div class="panel-heading">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 212)                                                 <h6 class="panel-title text-center">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 213)                                                 <hr>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 214)                                                 <a class="collapsefont" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 215)                                                 Mathematics</a>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 216)                                                 <hr>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 217)                                                 </h4>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 218)                                              </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 219)                                              <div id="collapse3" class="panel-collapse collapse">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 220)                                                 <div class="panel-body">Discrete Mathematics and Calculus.</div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 221)                                              </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 222)                                           </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 223)                                        </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 224)                                     </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 225)                                  </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 226)                               </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 227)                            </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 228)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 229)                   </li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 230)                   <li class="timeline-inverted">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 231)                   <div class="timeline-image">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 232)                   <!--<img class="rounded-circle img-fluid" src="img/gradimages.jpg" alt="">-->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 233)                   <span class="cap fa-stack fa-2x">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 234)                   <i class="fa fa-circle fa-stack-2x text-primary"></i>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 235)                   <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 236)                   </span>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 237)                   </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 238)                   </li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 239)                </ul>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 240)                </div>
+eb2cbb33 (nyawonkulu 2018-08-08 14:00:00 +0200 241)             </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 242)          </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 243)       </section>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 244)       <!-- #Skills & Interests -->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 245)       <section class="bg-light" id="skills">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 246)          <div class="container">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 247)             <div class="row wow fadeInDown"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 248)                <div class="col-lg-12 text-center">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 249)                   <h2 class="section-heading text-uppercase">Skills & Interests</h2>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 250)                   <h3 class="section-subheading text-muted">Behavioral Competencies, Technical Competencies, Professional Tools & Interests</h3>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 251)                </div>
+eb2cbb33 (nyawonkulu 2018-08-08 14:00:00 +0200 252)             </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 253)             <div class="row text-center">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 254)                <!--Behavioral Competencies-->        
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 255)                <div class="competencies col-md-6 wow fadeInUp"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 256)                   <span class="fa-stack fa-4x">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 257)                   <i class="fa fa-circle fa-stack-2x text-primary"></i>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 258)                   <i class="fa fa-male fa-stack-1x fa-inverse"></i>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 259)                   </span>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 260)                   <h4 class="service-heading">Behavioral Competencies</h4>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 261)                   <div class="inner">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 262)                      <ul class="fa-ul text-muted">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 263)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Adaptability, Analytical thinking & Attention to Detail</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 264)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Ability to work in a team</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 265)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Conflict resolution skills</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 266)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Creativity and innovation</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 267)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Proactivity, practicality and self-motivation</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 268)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Problem solving</li>
+721f34b6 (nyawonkulu 2018-08-24 02:13:22 +0200 269)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Strong oral and written Communication skills</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 270)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Work load management</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 271)                      </ul>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 272)                   </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 273)                </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 274)                <!--Technical Competencies-->         
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 275)                <div class="competencies col-md-6 wow fadeInUp"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 276)                   <span class="fa-stack fa-4x">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 277)                   <i class="fa fa-circle fa-stack-2x text-primary"></i>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 278)                   <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 279)                   </span>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 280)                   <h4 class="service-heading">Technical Competencies</h4>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 281)                   <div class="inner">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 282)                      <ul class="fa-ul text-muted" >
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 283)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Algorithms and Data Structures implementation</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 284)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Application of Agile development of SDLC</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 285)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Database knowledge</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 286)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Project planning & management</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 287)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Programming & delivering quality code</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 288)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Systems analysis, design and modelling</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 289)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Systems development</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 290)                      </ul>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 291)                   </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 292)                </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 293)                <!--Professional Tools-->
+eb2cbb33 (nyawonkulu 2018-08-08 14:00:00 +0200 294)             </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 295)             <div class="row text-center">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 296)                <div class="competencies col-md-6 wow fadeInUp"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 297)                   <span class="fa-stack fa-4x">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 298)                   <i class="fa fa-circle fa-stack-2x text-primary"></i>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 299)                   <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 300)                   </span>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 301)                   <h4 class="service-heading">Professional Tools</h4>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 302)                   <div class="inner">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 303)                      <ul class="fa-ul text-muted" >
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 304)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Artificial Intelligence</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 305)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>ASP.Net & Visual C#</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 306)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>C++ & Java</li>
+721f34b6 (nyawonkulu 2018-08-24 02:13:22 +0200 307)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Git</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 308)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>HTML/CSS</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 309)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Microsoft Office & Microsoft Visio</li>
+721f34b6 (nyawonkulu 2018-08-24 02:13:22 +0200 310)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>PHP & Microsoft SQL Server</li>
+721f34b6 (nyawonkulu 2018-08-24 02:13:22 +0200 311)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>QT Creator</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 312)                      </ul>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 313)                   </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 314)                </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 315)                <!--interest-->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 316)                <div class="competencies col-md-6 wow fadeInUp"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 317)                   <span class="fa-stack fa-4x">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 318)                   <i class="fa fa-circle fa-stack-2x text-primary"></i>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 319)                   <i class="fa fa-heart fa-stack-1x fa-inverse"></i>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 320)                   </span>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 321)                   <h4 class="service-heading">Interests</h4>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 322)                   <div class="inner">
+721f34b6 (nyawonkulu 2018-08-24 02:13:22 +0200 323)                      <ul class="fa-ul text-muted" >                        
+721f34b6 (nyawonkulu 2018-08-24 02:13:22 +0200 324)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Athletics</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 325)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Computing & Technology</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 326)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Community involvement, social membership & team player</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 327)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Cookery</li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 328)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Entrepreneurship</li>
+721f34b6 (nyawonkulu 2018-08-24 02:13:22 +0200 329)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Passion for strategy games</li>
+721f34b6 (nyawonkulu 2018-08-24 02:13:22 +0200 330)                         <li><i class="fa-li fa fa-spinner fa-spin"></i>Web development</li>                          
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 331)                      </ul>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 332)                   </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 333)                </div>
+eb2cbb33 (nyawonkulu 2018-08-08 14:00:00 +0200 334)             </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 335)          </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 336)       </section>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 337)       <!-- #Experience-->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 338)       <section  id="portfolio">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 339)          <div class="container">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 340)             <div class="row wow fadeInDown"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 341)                <div class="col-lg-12 text-center">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 342)                   <h2 class="section-heading text-uppercase">Experience</h2>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 343)                   <h3 class="section-subheading text-muted">Places worked or volunteered</h3>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 344)                </div>
+eb2cbb33 (nyawonkulu 2018-08-08 14:00:00 +0200 345)             </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 346)             <!--Web Developer-->    
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 347)             <div class="experience">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 348)                <div class="row">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 349)                   <div class="col-md-6 text-center wow fadeInLeft"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 350)                      <h4 class="text-uppercase">eyeCV</h4>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 351)                      <img class="img-fluid d-block mx-auto" src="img/experience/eyecv-small.jpg" alt="">              
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 352)                   </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 353)                   <div class="timeline col-md-1">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 354)                   </div>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 355)                   <div class="experience-bg col-md-5 text-muted wow fadeInRight"  data-wow-duration="3s">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 356)                      <div class="inner-exp">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 357)                         <p class="item-intro">Web Developer</p>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 358)                         <p class="item-intro"><i>JULY<b>2017</b> – DEC<b>2017</b></i></p>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 359)                         <div class=" inner">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 360)                            <ul class="fa-ul">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 361)                               <li><i class="fa-li fa fa-spinner fa-spin"></i>Working with an agile team to develop, test and maintain web and desktop-based business applications build on eyeCV technologies</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 362)                               <li><i class="fa-li fa fa-spinner fa-spin"></i>Assisting in the collection and documentation of user’s requirements, development of user stories and estimates</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 363)                               <li><i class="fa-li fa fa-spinner fa-spin"></i>Preparing reports and, manuals and other documentation on the status, operation and maintenance of software</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 364)                               <li><i class="fa-li fa fa-spinner fa-spin"></i>Design, develop and unit test applications in accordance with established standards</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 365)                               <li><i class="fa-li fa fa-spinner fa-spin"></i>Participating in peer-reviews of solution designs and related code</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 366)                               <li><i class="fa-li fa fa-spinner fa-spin"></i>Package and support deployment of releases</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 367)                               <li><i class="fa-li fa fa-spinner fa-spin"></i>Working with teammates in the migration of older applications (asp) to current eyeCV technologies</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 368)                               <li><i class="fa-li fa fa-spinner fa-spin"></i>Developing, refining and tuning integrations between applications</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 369)                               <li><i class="fa-li fa fa-spinner fa-spin"></i>Analyzing and resolving technical and application problems</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 370)                               <li><i class="fa-li fa fa-spinner fa-spin"></i>Adhering to high-quality development principles while delivering solutions on time and on-budget</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 371)                            </ul>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 372)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 373)                      </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 374)                   </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 375)                </div>
+eb2cbb33 (nyawonkulu 2018-08-08 14:00:00 +0200 376)             </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 377)             <!--Department of education-->                               
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 378)             <div class="experience">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 379)                <div class="row">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 380)                   <div class="col-md-6 text-center wow fadeInLeft"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 381)                      <h4 class="text-uppercase">Department of Education</h4>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 382)                      <img class="img-fluid d-block mx-auto" src="img/experience/department-small.jpg" alt="">                  
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 383)                   </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 384)                   <div class="timeline col-md-1">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 385)                   </div>
+b30ac795 (nyawonkulu 2018-08-17 09:17:24 +0200 386)                   <div class="experience-bg col-md-5 wow fadeInRight"  data-wow-duration="3s">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 387)                      <div class="inner-exp">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 388)                         <p class="item-intro">Examination Assistant (UMgungundlovu District)</p>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 389)                         <p class="item-intro"><i>NOV<b>2015</b> – DEC<b>2015</b></i></p>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 390)                         <div class="inner">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 391)                            <ul class="fa-ul">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 392)                               <li><i class="fa-li fa fa-spinner fa-spin"></i>Sorting and packing of scripts</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 393)                               <li><i class="fa-li fa fa-spinner fa-spin"></i>The movement of scripts within the marking centre and any other duties assigned by the Administrative Manager at the marking venue</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 394)                            </ul>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 395)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 396)                      </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 397)                   </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 398)                </div>
+eb2cbb33 (nyawonkulu 2018-08-08 14:00:00 +0200 399)             </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 400)             <!--Methssoc-->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 401)             <div class="experience">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 402)                <div class="row">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 403)                   <div class="col-md-6 text-center wow fadeInLeft"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 404)                      <h4 class="text-uppercase">Methssoc UKZN PMB</h4>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 405)                      <img class="img-fluid d-block mx-auto" src="img/experience/meths-small.jpg" alt="">                  
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 406)                   </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 407)                   <div class="timeline col-md-1">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 408)                   </div>
+b30ac795 (nyawonkulu 2018-08-17 09:17:24 +0200 409)                   <div class="col-md-5">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 410)                      <div class=" experience-bg wow fadeInRight"  data-wow-duration="3s">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 411)                         <div class="inner-exp">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 412)                            <p class="item-intro">Project Officer</p>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 413)                            <p class="item-intro"><i>FEB<b>2016</b> – NOV<b>2016</b></i></p>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 414)                            <div class="inner">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 415)                               <ul class="fa-ul">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 416)                                  <li><i class="fa-li fa fa-spinner fa-spin"></i>Organizing projects and activities.</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 417)                                  <li><i class="fa-li fa fa-spinner fa-spin"></i>In conjunction with the Treasurer be responsible for fund raising.</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 418)                               </ul>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 419)                            </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 420)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 421)                      </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 422)                      <hr class="methssoc">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 423)                      <div class="experience-bg wow fadeInRight"  data-wow-duration="3s">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 424)                         <div class="inner-exp">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 425)                            <p class="item-intro">Treasurer</p>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 426)                            <p class="item-intro"><i>FEB<b>2015</b> – NOV<b>2015</b></i></p>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 427)                            <div class="inner">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 428)                               <ul class="fa-ul">
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 429)                                  <li><i class="fa-li fa fa-spinner fa-spin"></i>Responsible for all finances and financial policies.</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 430)                                  <li><i class="fa-li fa fa-spinner fa-spin"></i>Responsible for all financial transactions, records and accounts.</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 431)                                  <li><i class="fa-li fa fa-spinner fa-spin"></i>Prepare and present an audited financial report annually.</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 432)                                  <li><i class="fa-li fa fa-spinner fa-spin"></i>Responsible for the budget of METHSSOC and any matters incidental thereto.</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 433)                                  <li><i class="fa-li fa fa-spinner fa-spin"></i>Facilitate Fund Raising ventures.</li>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 434)                                  <br>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 435)                               </ul>
+b3b48fac (nyawonkulu 2018-08-17 07:37:49 +0200 436)                            </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 437)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 438)                      </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 439)                   </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 440)                </div>
+eb2cbb33 (nyawonkulu 2018-08-08 14:00:00 +0200 441)             </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 442)          </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 443)       </section>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 444)       <!-- #Development projects -->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 445)       <section class="bg-light" id="projects">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 446)          <div class="container">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 447)             <div class="row wow fadeInDown"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 448)                <div class="col-lg-12 text-center">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 449)                   <h2 class="section-heading text-uppercase">Projects</h2>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 450)                   <h3 class="section-subheading text-muted">Some of the projects I have embarked on skill me as a developer.</h3>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 451)                </div>
+a9a03642 (nyawonkulu 2018-08-16 09:20:04 +0200 452)             </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 453)             <div class="row">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 454)                <!--dev1-->               
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 455)                <div class="col-sm-12">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 456)                   <div class="team-member">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 457)                      <div class="row wow fadeInUp"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 458)                         <div class="col-md-4">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 459)                            <hr class="hrleft">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 460)                             
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 461)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 462)                         <div class="col-md-4">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 463)                            <img class="mx-auto rounded-circle" src="img/developmentproj/1.jpg" alt="">                                    
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 464)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 465)                         <div class="col-md-4">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 466)                            <hr class="hright">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 467)                             
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 468)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 469)                      </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 470)                      <div class="wow fadeInDown"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 471)                         <h4>Expert Technologies</h4>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 472)                         <p class="text-muted"><i>Front End System & Website</i></p>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 473)                         <p class="item-intro text-muted"><br><b>Implementation of requirements that have been negotiated with the client.</b></p>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 474)                      </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 475)                      <div class="inner">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 476)                         <div class="wording text-muted wow fadeInUp"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 477)                            <p>As Expert Technology, we were required to try and complete as much of the system coding as possible so that as many features as possible can be demonstrated to the client.</p>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 478)                            <p>The front end system had to satisfy as many of the functional user requirements as possible. While there is a bit of compromise in terms of the system completeness, all main 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 479)                               functional requirements had to be fully developed and demonstrated.The overall system focus was to demonstrate how the system will support managerial decision making. 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 480)                               The implementation plan was that the transaction processing data required to underpin the decision making capability of the system, is efficiently captured by the current front system.
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 481)                            </p>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 482)                            <p>The website had to have an intuitive menu/navigation system using web-specific interface design principles. Transaction processing/data capture/manipulation facility – 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 483)                               The requirement here was that the Website must facilitate read/write/update processing on group system database. Database connectivity - both the front-end and web applications should demonstrate the ability to read, write, update and delete from a single database.
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 484)                            </p>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 485)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 486)                      </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 487)                   </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 488)                </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 489)                <!--dev2-->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 490)                <div class="col-sm-12 wow fadeInUp"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 491)                   <div class="team-member">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 492)                      <div class="row">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 493)                         <div class="col-md-4">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 494)                            <hr class="hrleft">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 495)                             
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 496)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 497)                         <div class="col-md-4">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 498)                            <img class="mx-auto rounded-circle" src="img/developmentproj/2.jpg" alt="">                                    
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 499)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 500)                         <div class="col-md-4">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 501)                            <hr class="hright">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 502)                             
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 503)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 504)                      </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 505)                      <div class="wow fadeInDown"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 506)                         <h4>Group-5</h4>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 507)                         <p class="text-muted"><i>Pacman Application</i></p>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 508)                         <p class="item-intro text-muted"><br><b>Design and implement a C++ application that will be used to facilitate sessions <br>of a new version of the Pacman game in which the player is either a bot or a human player.</b></p>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 509)                      </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 510)                      <div class="inner">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 511)                         <div class="wording text-muted wow fadeInUp"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 512)                            <p>System had to be developed in a manner that facilitates the fulfillment of the following specific requirements:<br>&nbsp &nbsp &nbsp The use of graphical user interfaces and graphics for displaying the board and player moves. 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 513)                               Unique adaptation of Pacman - modify the game into our own way. Longitudinal data storage – for example, capturing game data over time or session saving. Data analysis and reporting – for example, the use of graphs 
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 514)                               and charts to display game statistics. System configuration – for example, settings that allow the user to customize the game. Game levels - after completing one level, a player should advance to more challenging levels.
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 515)                            </p>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 516)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 517)                      </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 518)                   </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 519)                </div>
+a9a03642 (nyawonkulu 2018-08-16 09:20:04 +0200 520)             </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 521)          </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 522)       </section>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 523)       <!-- #Contact -->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 524)       <section id="contact">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 525)          <div class="container">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 526)             <div class="row wow fadeInDown"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 527)                <div class="col-lg-12 text-center">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 528)                   <h2 class="section-heading text-uppercase">Contact Me</h2>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 529)                   <br>            
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 530)                </div>
+a9a03642 (nyawonkulu 2018-08-16 09:20:04 +0200 531)             </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 532)             <div class="col-md-12 col-xs-12">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 533)                <div class="row">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 534)                   <div class="col-md-6 col-xs-12">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 535)                      <form id="contactForm" name="sentMessage" novalidate>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 536)                         <div class="row">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 537)                            <div class="col-md-12 wow fadeInLeft" data-wow-offset="200" data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 538)                               <div class="form-group">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 539)                                  <input class="form-control" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 540)                                  <p class="help-block text-danger"></p>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 541)                               </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 542)                               <div class="form-group">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 543)                                  <input class="form-control" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 544)                                  <p class="help-block text-danger"></p>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 545)                               </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 546)                               <div class="form-group">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 547)                                  <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 548)                                  <p class="help-block text-danger"></p>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 549)                               </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 550)                               <div class="form-group">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 551)                                  <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 552)                                  <p class="help-block text-danger"></p>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 553)                               </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 554)                               <div class="clearfix">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 555)                               </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 556)                               <div class="col-lg-12 text-center wow fadeInUp"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 557)                                  <div id="success"></div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 558)                                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 559)                               </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 560)                            </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 561)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 562)                      </form>
+857e5d1f (nyawonkulu 2018-08-09 05:31:56 +0200 563)                   </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 564)                   <div class="col-md-6 col-xs-12">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 565)                      <div class="contact-panel wow fadeInRight"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 566)                         <div class="row col-md-12 ">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 567)                            <div class="row">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 568)                               <div class="col-md-12 col-xs-12">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 569)                                  <div class="section-heading">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 570)                                     <h3>Address</h3>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 571)                                     <span>P.O. BOX 7195</span><br>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 572)                                     <span>Pietermaritzburg</span><br>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 573)                                     <span>3200</span><br><br>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 574)                                  </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 575)                               </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 576)                               <div class="col-md-12 col-sm-12 col-xs-12">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 577)                                  <div class="section-heading">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 578)                                     <h3>Phone</h3>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 579)                                     <span>(+27) 73 216 0878</span>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 580)                                  </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 581)                               </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 582)                               <div class="col-md-12 col-sm-12 col-xs-12">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 583)                                  <div class="section-heading">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 584)                                     <h3>Email</h3>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 585)                                     <span>qiniso.nhlakanipho.makhaye@gmail.com</span>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 586)                                  </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 587)                               </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 588)                            </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 589)                         </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 590)                      </div>
+a9a03642 (nyawonkulu 2018-08-16 09:20:04 +0200 591)                   </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 592)                </div>
+eb2cbb33 (nyawonkulu 2018-08-08 14:00:00 +0200 593)             </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 594)          </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 595)       </section>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 596)       <!-- #Footer -->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 597)       <footer>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 598)          <div class="container wow fadeInUp"  data-wow-duration="3s">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 599)             <div class="row">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 600)                <div class="col-md-4">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 601)                   <span class="copyright">Copyright &copy; 2018 QINISO MAKHAYE.</span>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 602)                </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 603)                <div class="col-md-4">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 604)                   <ul class="list-inline social-buttons">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 605)                      <li class="list-inline-item">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 606)                         <a href="https://www.instagram.com/shombela_que/">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 607)                         <i class="fa fa-instagram"></i>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 608)                         </a>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 609)                      </li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 610)                      <li class="list-inline-item">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 611)                         <a href="https://www.facebook.com/qinisomancue">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 612)                         <i class="fa fa-facebook"></i>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 613)                         </a>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 614)                      </li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 615)                      <li class="list-inline-item">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 616)                         <a href="https://www.linkedin.com/in/qiniso-nhakanipho-makhaye-727a8b110">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 617)                         <i class="fa fa-linkedin"></i>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 618)                         </a>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 619)                      </li>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 620)                   </ul>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 621)                </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 622)             </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 623)          </div>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 624)       </footer>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 625)       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 626)       <!-- loader -->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 627)       <script type="text/javascript">
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 628)          $(window).load(function() {
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 629)             $(".page-loader").fadeOut("slow");
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 630)          });
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 631)       </script>  
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 632)       <!-- Bootstrap core JavaScript -->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 633)       <script src="vendor/jquery/jquery.min.js"></script>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 634)       <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 635)       <!-- Plugin JavaScript -->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 636)       <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 637)       <!-- Contact form JavaScript -->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 638)       <script src="js/jqBootstrapValidation.js"></script>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 639)       <script src="js/contact_me.js"></script>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 640)       <!-- Custom scripts for this template -->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 641)       <script src="js/agency.min.js"></script>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 642)       <!--<script src="js/wow.js"></script>-->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 643)       <!-- Return to Top -->
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 644)       <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 645)       <script src="js/scrollup.js"></script>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 646)       <script src="dist/wow.js"></script>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 647)       <script>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 648)          wow = new WOW(
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 649)            {
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 650)             animateClass: 'animated',
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 651)             offset:       100,
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 652)             callback:     function(box) {
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 653)               console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 654)             }
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 655)            }
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 656)          );
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 657)          wow.init();
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 658)          document.getElementById('moar').onclick = function() {
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 659)            var section = document.createElement('section');
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 660)            section.className = 'section--purple wow fadeInDown';
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 661)            this.parentNode.insertBefore(section, this);
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 662)          };
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 663)           
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 664)       </script>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 665)       <script src="js/collapse.js"></script>
+83deb922 (nyawonkulu 2018-08-17 06:43:34 +0200 666)    </body>
+eb2cbb33 (nyawonkulu 2018-08-08 14:00:00 +0200 667) </html>
+eb2cbb33 (nyawonkulu 2018-08-08 14:00:00 +0200 668) 
