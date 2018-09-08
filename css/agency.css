@@ -73,6 +73,7 @@ section h3.section-subheading {
 .btn-primary:hover {
 	background-color: #e65100!important;
 	border-color: #e65100!important;
+	outline:none;
 	color: #fff
 }
 
@@ -186,7 +187,8 @@ header.masthead .intro-text .intro-heading {
 
 .service-heading {
 	margin: 15px 0;
-	text-transform: none
+	text-transform: none;
+	color: black
 }
 
 #portfolio .portfolio-item {
@@ -537,7 +539,8 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-	background-color: #e65100
+	background-color: #e65100;
+	outline:none
 }
 
 #return-to-top {
@@ -748,6 +751,10 @@ a.collapsefont {
 	color: #fff
 }
 
+.collapsefont-2{
+	color: #ef6c00
+}
+
 a.collapsefont.active,
 a.collapsefont:active,
 a.collapsefont:focus,
@@ -773,5 +780,18 @@ a.collapsefont:hover {
 	padding: 20px	
 }
 
+.pro-col {
+	width:100%;
+	margin-left: 100px
 
+}
+.pro-icon{
+	width:100%;
+	
+
+}
+
+a.skills{
+	outline: none
+}
 
