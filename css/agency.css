@@ -83,11 +83,13 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-	background: #e65100 text-shadow: none
+	background: #e65100;
+	text-shadow: none
 }
 
 ::selection {
-	background: #e65100 text-shadow: none
+	background: #e65100; 
+	text-shadow: none
 }
 
 img::selection {
@@ -148,7 +150,7 @@ img::-moz-selection {
 
 header.masthead {
 	text-align: center;
-	color: rgba(76, 175, 80, 0.6);
+	
 	background-image: url(../img/IMG_Copy.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -188,7 +190,7 @@ header.masthead .intro-text .intro-heading {
 .service-heading {
 	margin: 15px 0;
 	text-transform: none;
-	color: black
+	color: #3b4550
 }
 
 #portfolio .portfolio-item {
@@ -217,7 +219,7 @@ header.masthead .intro-text .intro-heading {
 	-moz-transition: all ease .5s;
 	transition: all ease .5s;
 	opacity: 0;
-	background: #8e8e38
+	background: #e65100
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -386,24 +388,14 @@ header.masthead .intro-text .intro-heading {
 .timeline .timeline-body>ul {
 	margin-bottom: 0
 }
-.competencies .skill-2{
-	margin-top: 50px;
-	padding-top: 50px
+.mainHead{
+	height: 150px
 }
-
-.competencies {
-	padding-top: 30px
-}
-.competencies-below{
+.competenciesAbove, .competenciesBelow{
+	height: 100%;
 	width:100%;
-	padding-top: 30px	
-}
-.competencies-skills{	
-	width:100%;
-	padding-top: 30px		
-}
-.t-container .timeline{
-	margin-top: 100px;	
+	padding-left: 30px;
+	padding-bottom: 50px	
 }
 .team-member {
 	margin-top: 20px;
@@ -421,13 +413,11 @@ header.masthead .intro-text .intro-heading {
 	height: 250px;
 	border: 7px solid #fff
 }
-
 .team-member h4 {
 	margin-top: 25px;
 	margin-bottom: 0;
 	text-transform: none
 }
-
 .team-member p {
 	margin-top: 0
 }
@@ -444,61 +434,49 @@ section#contact {
 	background-size: cover;
 	padding-top: 100px
 }
-
 section#contact .section-heading {
 	color: #fff
 }
-
 section#contact .form-group {
 	margin-bottom: 10px
 }
-
 section#contact .form-group input,
 section#contact .form-group textarea {
 	padding: 20px
 }
-
 section#contact .form-group input.form-control {
 	height: 20px
 }
-
 section#contact .form-group textarea.form-control {
 	height: 150px
 }
-
 section#contact .form-control:focus {
 	border-color: #e65100;
 	box-shadow: none
 }
-
 section#contact .contactForm {
 	width: 400px
 }
-
 section#contact::-webkit-input-placeholder {
 	font-weight: 700;
 	color: #ced4da;
 	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
-
 section#contact:-moz-placeholder {
 	font-weight: 700;
 	color: #ced4da;
 	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
-
 section#contact::-moz-placeholder {
 	font-weight: 700;
 	color: #ced4da;
 	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
-
 section#contact:-ms-input-placeholder {
 	font-weight: 700;
 	color: #ced4da;
 	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
-
 section#contact .contact-panel {
 	margin-top: 50px;
 	padding-left: 50px
@@ -509,14 +487,12 @@ footer {
 	text-align: center;
 	height: 130px
 }
-
 footer span.copyright {
 	font-size: 90%;
 	line-height: 40px;
 	text-transform: none;
 	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
-
 ul.social-buttons {
 	margin-bottom: 0
 }
@@ -782,16 +758,19 @@ a.collapsefont:hover {
 
 .pro-col {
 	width:100%;
-	margin-left: 100px
+	margin-left: 50px
 
 }
 .pro-icon{
-	width:100%;
-	
-
+	width:100%
 }
-
+.panel-body .pro-heading{
+	margin-left: 38%
+}
 a.skills{
 	outline: none
 }
 
+#top-panel{
+	width:100%
+}
